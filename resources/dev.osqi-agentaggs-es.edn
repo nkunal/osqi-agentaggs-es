@@ -1,0 +1,11 @@
+{:group.id "dev.osqi-agentaggs-es.edn"
+ :kafka.zk.connect "localhost:2181/kafka"
+ :topic.name "agentlog"
+ :health.port 31503
+ :batch.size 2
+ :redis.host "localhost"
+ :redis.port 6379
+ :broker.list "localhost:9092"
+ :producer.topic.name "agentstate"
+ :es.url "http://localhost:9200"
+ }
